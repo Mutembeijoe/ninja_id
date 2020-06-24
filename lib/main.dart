@@ -30,6 +30,7 @@ class NinjaCard extends StatelessWidget {
               Center(
                 child: CircleAvatar(
                     backgroundImage: AssetImage('assets/Samurai_Jack.png'),
+                    backgroundColor: Colors.grey[850],
                     radius: 50),
               ),
               Divider(
